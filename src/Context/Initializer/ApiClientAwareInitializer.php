@@ -6,9 +6,6 @@ namespace Behat\JwtApiExtension\Context\Initializer;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\Initializer\ContextInitializer;
 use Behat\JwtApiExtension\Context\ApiClientAwareInterface;
-use Behat\JwtApiExtension\Context\JwtApiContext;
-use Behat\JwtExtension\Context\JwtContext;
-use Behat\WebApiExtension\Context\ApiClientAwareContext;
 use GuzzleHttp\ClientInterface;
 
 /**
